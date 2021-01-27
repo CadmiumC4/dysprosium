@@ -1,3 +1,5 @@
+#include <iostream>
+
 union DISCORD_SNOWFLAKE
 {
   unsigned long int value;
