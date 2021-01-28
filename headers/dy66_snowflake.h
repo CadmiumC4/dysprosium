@@ -1,6 +1,6 @@
 
-#include <stdlib.h>
-
+namespace dy66dc
+{
 
 union DISCORD_SNOWFLAKE
 {
@@ -12,3 +12,4 @@ union DISCORD_SNOWFLAKE
    unsigned int discord_timestamp:54;
    } elements;
  };
+}
