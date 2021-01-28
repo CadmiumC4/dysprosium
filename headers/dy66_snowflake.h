@@ -2,7 +2,7 @@
 namespace dy66dc
 {
 
-union DISCORD_SNOWFLAKE
+typedef union 
 {
   unsigned long int value;
   struct DISCORD_SNOWFLAKE_ELEMENTS {
@@ -11,5 +11,5 @@ union DISCORD_SNOWFLAKE
    unsigned int worker_id:5;
    unsigned int discord_timestamp:54;
    } elements;
- };
+ } DISCORD_SNOWFLAKE;
 }
